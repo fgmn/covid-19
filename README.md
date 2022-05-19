@@ -1,0 +1,2 @@
+# covid-19
+基于QT的DSA课程设计低风险出行系统，记忆化搜索算法为用户制定最低风险或者是限时最低风险策略的出行方案，通过QGraphicsScene、QGraphicsView进行路线可视化渲染
