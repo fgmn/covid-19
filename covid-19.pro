@@ -54,3 +54,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     icon.qrc
+
+DISTFILES += \
+    city.in \
+    items.in

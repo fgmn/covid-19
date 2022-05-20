@@ -1,6 +1,6 @@
 #include "widget.h"
 #include <QApplication>
-#include "../QFCTopologyInput/QFCTopologyInput/graphwidget.h"
+#include "graphwidget.h"
 
 // Qt对标准C++进行了拓展
 // 元对象编译器（Mera-Object Compiler,Moc）是一个预处理器

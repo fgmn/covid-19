@@ -16,6 +16,7 @@ void travelSystem::readCity() {
     int i, x, y, r;
 
     if (RD) cout << "\nReading city.in ...\n";
+    qDebug() << "\nReading city.in ...\n";
 
     ifstream f("city.in", ios::in);
     while (f >> i >> r >> x >> y) {
@@ -38,6 +39,7 @@ void travelSystem::readItem() {
     ifstream f("items.in", ios::in);
     while (f >> i >> dCity >> type >> sTime >> time) {
         if (RD) cout << i << ' ' << dCity << ' ' << type << ' ' << sTime << ' ' << time << '\n';
+        qDebug() << i << ' ' << dCity << ' ' << type << ' ' << sTime << ' ' << time;
         item newItem;
         newItem.sCity = i;
         newItem.dCity = dCity;
